@@ -2,7 +2,7 @@
 sudo echo "$USER ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers
 sudo apt install python python-pip git
 pip install fabric
-git clone https://github.com/cn-matsuri/matsuri_translation
+git clone https://github.com/FlameRat/matsuri_translation
 cd matsuri_translation
 python deploy.py
 domain = ''
